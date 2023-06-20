@@ -1,9 +1,11 @@
 #  Traditional Cloth Recognizer
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
-The model can classify 23 different types of caps <br/>
+The model can classify 23 different types of Traditional Cloth <br/>
 The types are following: <br/>
 
 # 1. Interesting Topic Selection with 9+ categories (done)
+## Topic: Traditional Cloth Recognizer
+### Categories: (23)
 -	1	.	   "kimono (Japan)",
 -	2	.	    "hanbok (South Korea)",
 -	3	.	    "cheongsam/qipao (China)",
@@ -36,13 +38,11 @@ The types are following: <br/>
 
 # Training and Data Cleaning
 **Training:** Fine-tuned a resnet34 model for 6 epochs (3 times) and got upto ~70% accuracy. <br/>
-**Data Cleaning:** This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or finetuning, except for the last time which was the final iteration of the model. <br/>
+**Data Cleaning:** This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or fine-tuning, except for the last time which was the final iteration of the model. <br/>
 
 # 3. Deploy Model with Gradio & HuggingFace Spaces (done)
-I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](
-     ### HuggingFace Spaces App URL: https://huggingface.co/spaces/msideadman/cap-recognizer
-
-     ### Gradio App URL: https://897f24d5bf9ba00855.gradio.live ).
+I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/msideadman/cap-recognizer).
+ ### Gradio App URL: https://897f24d5bf9ba00855.gradio.live 
       <br/>
 
 <img src = "deployment/gradio_deploy.png" width="700" height="350">
@@ -52,4 +52,4 @@ The deployed model API is integrated [here](https://arju10.github.io/tradiotiona
 
 
 # 5. Setting Up the project in GitHub  (done)
->>>>>>>> https://github.com/arju10/traditional-cloth-recognizer.git
+> https://github.com/arju10/traditional-cloth-recognizer.git
