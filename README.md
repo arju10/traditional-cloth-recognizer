@@ -42,13 +42,14 @@ The types are following: <br/>
 I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](
      ### HuggingFace Spaces App URL: https://huggingface.co/spaces/msideadman/cap-recognizer
 
-     ### Gradio App URL: https://897f24d5bf9ba00855.gradio.live ). <br/>
+     ### Gradio App URL: https://897f24d5bf9ba00855.gradio.live ).
+      <br/>
 
 <img src = "deployment/gradio_deploy.png" width="700" height="350">
 
-# 4. Build a GitHub Pages Website and integrate API
+# 4. Build a GitHub Pages Website and integrate API (done)
 The deployed model API is integrated [here](https://arju10.github.io/tradiotional-cloth-recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
 
 
-# 5. Setting Up the project in GitHub
+# 5. Setting Up the project in GitHub  (done)
 >>>>>>>> https://github.com/arju10/traditional-cloth-recognizer.git
