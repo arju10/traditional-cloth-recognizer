@@ -37,7 +37,7 @@ The types are following: <br/>
 
 
 # Training and Data Cleaning
-**Training:** Fine-tuned a resnet34 model for 6 epochs (3 times) and got upto ~70% accuracy. <br/>
+**Training:** Fine-tuned a resnet34, resnet152, DenseNet121 model for 6 epochs (3 times) and got upto ~83% accuracy. Among the model resnet152 is performed good compare to others which is about 83% <br/>
 **Data Cleaning:** This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or fine-tuning, except for the last time which was the final iteration of the model. <br/>
 
 # 3. Deploy Model with Gradio & HuggingFace Spaces (done)
