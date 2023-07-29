@@ -42,7 +42,7 @@ The types are following: <br/>
 
 # 3. Deploy Model with Gradio & HuggingFace Spaces (done)
 I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/msideadman/cap-recognizer).
- ### Gradio App URL: https://897f24d5bf9ba00855.gradio.live 
+ ### Gradio App URL: [here](https://897f24d5bf9ba00855.gradio.live )
       <br/>
 
 <img src = "deployment/gradio_deploy.png" width="700" height="350">
