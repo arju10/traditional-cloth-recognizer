@@ -41,7 +41,7 @@ The types are following: <br/>
 **Data Cleaning:** This part took the highest time. Since I collected data from browser, there were many noises. Also, there were images that contained. I cleaned and updated data using fastai ImageClassifierCleaner. I cleaned the data each time after training or fine-tuning, except for the last time which was the final iteration of the model. <br/>
 
 # 3. Deploy Model with Gradio & HuggingFace Spaces (done)
-I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/msideadman/cap-recognizer).
+I deployed to model to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://arju10-traditional-cloth-recognizer.hf.space).
  ### Gradio App URL: [here](https://897f24d5bf9ba00855.gradio.live )
       <br/>
 
